@@ -1,4 +1,4 @@
-# Modern CV Application
+# Modern, simple CV Application
 
 A beautiful, interactive CV application built with React, TypeScript, and Framer Motion. Built with Bold.new tool.
 
