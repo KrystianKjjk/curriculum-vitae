@@ -15,6 +15,7 @@ import interestsData from "./informations/interests.json";
 
 function App() {
     const reversedExperiences = [...experiencesData.experiences].reverse();
+    const reversedEducation = [...educationData.education].reverse();
 
     return (
         <div className="min-h-screen bg-gray-100">
@@ -39,9 +40,16 @@ function App() {
                         </Section>
 
                         <Section title="EDUCATION AND QUALIFICATIONS">
-                            {educationData.education.map((edu, index) => (
-                                <EducationItem key={edu.period} {...edu} index={index} />
-                            ))}
+                            <div className="relative pt-4">
+                                {reversedEducation.map((edu, index) => (
+                                    <EducationItem
+                                        key={edu.period}
+                                        {...edu}
+                                        index={index}
+                                        isLast={index === reversedEducation.length - 1}
+                                    />
+                                ))}
+                            </div>
                         </Section>
                     </div>
 
