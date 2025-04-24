@@ -17,7 +17,7 @@ const LanguageItem: React.FC<LanguageItemProps> = ({ language, proficiency, inde
             className="flex justify-between py-2 border-b last:border-0 border-gray-200"
         >
             <span className="font-medium text-gray-800">{language}</span>
-            <span className="text-blue-600">{proficiency}</span>
+            <span className="text-red-600">{proficiency}</span>
         </motion.div>
     );
 };

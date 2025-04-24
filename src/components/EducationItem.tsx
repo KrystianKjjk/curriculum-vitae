@@ -19,7 +19,7 @@ const EducationItem: React.FC<EducationItemProps> = ({ degree, institution, peri
             className="mb-5 bg-white p-5 rounded-md shadow-md"
         >
             <div className="flex flex-col md:flex-row justify-between mb-2">
-                <h3 className="text-xl font-bold text-blue-700">{degree}</h3>
+                <h3 className="text-xl font-bold text-red-700">{degree}</h3>
                 <span className="text-gray-600 text-sm md:text-base">{period}</span>
             </div>
             <p className="text-gray-800 font-semibold mb-1">{institution}</p>

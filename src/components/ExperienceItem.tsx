@@ -23,12 +23,12 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
     return (
         <div className="relative flex">
             {/* Timeline line */}
-            {!isLast && <div className="absolute left-4 top-6 w-0.5 h-full bg-blue-200" />}
+            {!isLast && <div className="absolute left-4 top-6 w-0.5 h-full bg-red-200" />}
 
             {/* Timeline dot */}
             <div
-                className={`absolute left-2.5 top-6 w-3 h-3 rounded-full border-2 border-blue-600 ${
-                    current ? "bg-red border-blue-600 border-2" : "bg-blue-600"
+                className={`absolute left-2.5 top-6 w-3 h-3 rounded-full border-2 border-red-600 ${
+                    current ? "bg-red border-red-600 border-2" : "bg-red-600"
                 }`}
             />
 
@@ -40,7 +40,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
                 className="ml-12 mb-8 bg-white p-5 rounded-md shadow-md w-full"
             >
                 <div className="flex flex-col md:flex-row justify-between mb-2">
-                    <h3 className="text-xl font-bold text-blue-700">{title}</h3>
+                    <h3 className="text-xl font-bold text-red-700">{title}</h3>
                     <span className="text-gray-600 text-sm md:text-base">{period}</span>
                 </div>
                 <p className="text-gray-800 font-semibold mb-2">{company}</p>

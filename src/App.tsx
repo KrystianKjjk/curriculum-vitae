@@ -49,14 +49,14 @@ function App() {
                         <Section title="SKILLS">
                             <div className="space-y-6">
                                 <div className="bg-white p-5 rounded-md shadow-md">
-                                    <h3 className="text-lg font-semibold text-blue-700 mb-3">Frontend</h3>
+                                    <h3 className="text-lg font-semibold text-red-700 mb-3">Frontend</h3>
                                     {skillsData.frontend.map((skill, index) => (
                                         <StarRating key={skill.skill} {...skill} index={index} />
                                     ))}
                                 </div>
 
                                 <div className="bg-white p-5 rounded-md shadow-md">
-                                    <h3 className="text-lg font-semibold text-blue-700 mb-3">Backend</h3>
+                                    <h3 className="text-lg font-semibold text-red-700 mb-3">Backend</h3>
                                     {skillsData.backend.map((skill, index) => (
                                         <StarRating
                                             key={skill.skill}
@@ -67,7 +67,7 @@ function App() {
                                 </div>
 
                                 <div className="bg-white p-5 rounded-md shadow-md">
-                                    <h3 className="text-lg font-semibold text-blue-700 mb-3">Databases</h3>
+                                    <h3 className="text-lg font-semibold text-red-700 mb-3">Databases</h3>
                                     {skillsData.databases.map((skill, index) => (
                                         <StarRating
                                             key={skill.skill}

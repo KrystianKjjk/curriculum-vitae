@@ -15,7 +15,7 @@ const Section: React.FC<SectionProps> = ({ title, children, className = "" }) =>
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "0%" }}
                 transition={{ duration: 0.5 }}
-                className="text-2xl font-bold mb-4 pb-2 border-b-2 border-blue-600 inline-block"
+                className="text-2xl font-bold mb-4 pb-2 border-b-2 border-red-600 inline-block"
             >
                 {title}
             </motion.h2>

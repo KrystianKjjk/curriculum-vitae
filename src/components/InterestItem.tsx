@@ -13,7 +13,7 @@ const InterestItem: React.FC<InterestItemProps> = ({ name, index }) => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-20%" }}
             transition={{ delay: 0.05 * index, duration: 0.4 }}
-            className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full inline-block mr-2 mb-2 transition-transform hover:scale-105"
+            className="bg-red-100 text-red-700 px-4 py-2 rounded-full inline-block mr-2 mb-2 transition-transform hover:scale-105"
         >
             {name}
         </motion.div>

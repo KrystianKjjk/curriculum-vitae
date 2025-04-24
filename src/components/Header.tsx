@@ -9,11 +9,11 @@ const Header: React.FC = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="bg-gradient-to-r from-blue-800 to-blue-600 text-white p-8 rounded-md shadow-lg"
+            className="bg-gradient-to-r from-red-800 to-red-600 text-white p-8 rounded-md shadow-lg"
         >
             <div className="flex flex-col md:flex-row items-center justify-between">
                 <div className="flex items-center mb-4 md:mb-0">
-                    <div className="bg-white text-blue-600 p-3 rounded-full mr-4">
+                    <div className="bg-white text-red-600 p-3 rounded-full mr-4">
                         <CircleUser size={48} />
                     </div>
                     <div>
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
                             initial={{ opacity: 0, y: -20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.7, duration: 0.5 }}
-                            className="text-xl text-blue-100"
+                            className="text-xl text-red-100"
                         >
                             {personalData.title}
                         </motion.p>
