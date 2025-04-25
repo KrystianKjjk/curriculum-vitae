@@ -1,0 +1,60 @@
+{
+    "skills": [
+        {
+            "skill": "React",
+            "rating": 4
+        },
+        {
+            "skill": "Redux",
+            "rating": 3
+        },
+        {
+            "skill": "Next.js",
+            "rating": 2
+        },
+        {
+            "skill": "Tailwind CSS",
+            "rating": 3
+        },
+        {
+            "skill": "TypeScript",
+            "rating": 4
+        },
+        {
+            "skill": "JavaScript",
+            "rating": 4
+        },
+        {
+            "skill": "C#/.NET",
+            "rating": 5
+        },
+        {
+            "skill": "WPF",
+            "rating": 3
+        },
+        {
+            "skill": "Azure",
+            "rating": 3
+        },
+        {
+            "skill": "SQL Server",
+            "rating": 3
+        },
+        {
+            "skill": "PostgreSQL",
+            "rating": 3
+        },
+        {
+            "skill": "Domain Driven Design",
+            "rating": 2
+        },
+        {
+            "skill": "Event driven architecture",
+            "rating": 2
+        },
+        {
+            "skill": "AI tools",
+            "rating": 3
+        }
+    ]
+}

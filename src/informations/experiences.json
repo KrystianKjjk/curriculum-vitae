@@ -1,0 +1,46 @@
+{
+    "experiences": [
+        {
+            "title": "Fullstack .NET developer",
+            "company": "Solteq PLC, Wrocław",
+            "period": "2023 - Present",
+            "description": "Developed and maintained a project consisting of multiple integrated applications designed to support restaurant operations and organizational needs.",
+            "current": true
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Capgemini Software Solutions Center, Wrocław",
+            "period": "2021 - 2023",
+            "description": "Developed and maintained a web application for a Belgian bank focused on identifying the issuer's shareholders. Assisted users in resolving issues reported during application usage.",
+            "current": false
+        },
+        {
+            "title": "Web Developer",
+            "company": "Association CodersCrew, Wrocław",
+            "period": "2021 - Present",
+            "description": "Collaborated on multiple projects as a web developer, focusing on web application development, task creation for fellow developers, and application design assistance.",
+            "current": true
+        },
+        {
+            "title": "Junior .NET Developer",
+            "company": "Raik Scheﬄer „BAYT”, Wrocław",
+            "period": "2020 - 2021",
+            "description": "Developed and maintained projects, including various collaborative applications to streamline inventory tracking and report generation for clients..",
+            "current": false
+        },
+        {
+            "title": "Mentor",
+            "company": ".CodersCamp, Wrocław",
+            "period": "2019 - 2020, 2020-2021",
+            "description": "Cooperating with work of 6-members team, explaining them project which were obligated to create and evaluate a result at the end of time intended for a project.",
+            "current": false
+        },
+        {
+            "title": "Trainee",
+            "company": "Bank Pekao S.A., Wrocław",
+            "period": "2019 - 2019",
+            "description": "Assisted the chief developer in creating an internal application.",
+            "current": false
+        }
+    ]
+}

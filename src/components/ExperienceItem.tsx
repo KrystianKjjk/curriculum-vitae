@@ -33,9 +33,9 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
             />
 
             <motion.div
-                initial={{ opacity: 0, x: -20 }}
+                initial={{ opacity: 0, x: -40 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: "-20%" }}
+                viewport={{ once: true }}
                 transition={{ delay: 0.1 * index, duration: 0.5 }}
                 className="ml-12 mb-8 bg-white p-5 rounded-md shadow-md w-full"
             >

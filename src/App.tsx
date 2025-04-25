@@ -14,9 +14,6 @@ import languagesData from "./informations/languages.json";
 import interestsData from "./informations/interests.json";
 
 function App() {
-    const reversedExperiences = [...experiencesData.experiences].reverse();
-    const reversedEducation = [...educationData.education].reverse();
-
     return (
         <div className="min-h-screen bg-gray-100">
             <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -28,12 +25,12 @@ function App() {
                     <div className="md:col-span-2">
                         <Section title="WORK EXPERIENCE">
                             <div className="relative pt-4">
-                                {reversedExperiences.map((exp, index) => (
+                                {experiencesData.experiences.map((exp, index) => (
                                     <ExperienceItem
                                         key={exp.period}
                                         {...exp}
                                         index={index}
-                                        isLast={index === reversedExperiences.length - 1}
+                                        isLast={index === experiencesData.experiences.length - 1}
                                     />
                                 ))}
                             </div>
@@ -41,12 +38,12 @@ function App() {
 
                         <Section title="EDUCATION AND QUALIFICATIONS">
                             <div className="relative pt-4">
-                                {reversedEducation.map((edu, index) => (
+                                {educationData.education.map((edu, index) => (
                                     <EducationItem
                                         key={edu.period}
                                         {...edu}
                                         index={index}
-                                        isLast={index === reversedEducation.length - 1}
+                                        isLast={index === educationData.education.length - 1}
                                     />
                                 ))}
                             </div>
@@ -58,30 +55,8 @@ function App() {
                             <div className="space-y-6">
                                 <div className="bg-white p-5 rounded-md shadow-md">
                                     <h3 className="text-lg font-semibold text-red-700 mb-3">Frontend</h3>
-                                    {skillsData.frontend.map((skill, index) => (
+                                    {skillsData.skills.map((skill, index) => (
                                         <StarRating key={skill.skill} {...skill} index={index} />
-                                    ))}
-                                </div>
-
-                                <div className="bg-white p-5 rounded-md shadow-md">
-                                    <h3 className="text-lg font-semibold text-red-700 mb-3">Backend</h3>
-                                    {skillsData.backend.map((skill, index) => (
-                                        <StarRating
-                                            key={skill.skill}
-                                            {...skill}
-                                            index={index + skillsData.frontend.length}
-                                        />
-                                    ))}
-                                </div>
-
-                                <div className="bg-white p-5 rounded-md shadow-md">
-                                    <h3 className="text-lg font-semibold text-red-700 mb-3">Databases</h3>
-                                    {skillsData.databases.map((skill, index) => (
-                                        <StarRating
-                                            key={skill.skill}
-                                            {...skill}
-                                            index={index + skillsData.frontend.length + skillsData.backend.length}
-                                        />
                                     ))}
                                 </div>
                             </div>
